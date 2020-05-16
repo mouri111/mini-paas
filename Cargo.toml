@@ -7,3 +7,9 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+actix-web = "2.0.0"
+actix-rt = "1.1.1"
+tokio = { version = "0.2.21", features = ["full"] }
+futures = "0.3.5"
+redis = { version = "0.16.0", features = ["aio", "tokio-rt-core"] }
+url = "2.1.1"
